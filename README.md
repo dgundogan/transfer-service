@@ -78,14 +78,14 @@ TABLE NAME : ACCOUNT
 
  |Column Name      | Type                | Not Null |
  |-----------------|---------------------|----------|
- |ACCOUNT_NUMBER   | STRING              | Y        |
- |BALANCE          | DOUBLE              | Y        |
+ |ACCOUNT_NUMBER   | VARCHAR             | Y        |
+ |BALANCE          | DECIMAL             | Y        |
 
 TABLE NAME : ACCOUNT_TRANSACTION
 
  |Column Name                  | Type                | Not Null |
  |-----------------------------|---------------------|----------|
  |ID                           | BIGINT              | Y        |
- |ACCOUNT_NUMBER               | STRING              | Y        |
- |DEST_ACC_NUMBER              | STRING              | Y        |
- |AMOUNT                       | DOUBLE              | Y        |
+ |ACCOUNT_NUMBER               | VARCHAR             | Y        |
+ |DEST_ACC_NUMBER              | VARCHAR             | Y        |
+ |AMOUNT                       | DECIMAL             | Y        |
