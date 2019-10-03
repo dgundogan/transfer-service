@@ -10,9 +10,9 @@
 	</parent>
 	<groupId>co.uk.rbs.account</groupId>
 	<artifactId>transfer-service</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>Transfer Service</name>
-	<description>Demo project for Spring Boot</description>
+	<description>To perform money transfer from source account to destination account</description>
 
 	<properties>
 		<java.version>1.8</java.version>

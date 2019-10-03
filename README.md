@@ -45,7 +45,7 @@ mvn -B clean package
 
 #Under the root folder of the project
 
-java -jar target/transfer-service-1.0-SNAPSHOT.jar
+java -jar target/transfer-service-1.0.0.jar
 
 ```
 
