@@ -55,11 +55,12 @@ java -jar target/transfer-service-1.0.0.jar
 The endpoint of the application as given in the following table.
 
 
-|End Point                                                 | Operation    |Port  |
-|----------------------------------------------------------|--------------|------|
-|http://localhost:8080/accounts/{accountId}/transfer       |POST          | 8080 |
+|End Point                                                     | Operation    |Port  |
+|--------------------------------------------------------------|--------------|------|
+|http://localhost:8080/api/accounts/{accountId}/transfer       |POST          | 8080 |
 
-Sample post url : http://localhost:8080/accounts/000-111-222/transfer
+Sample post url : http://localhost:8080/api/accounts/000-111-222/transfer
+
 
 * Sample Transaction Request
 ```json
